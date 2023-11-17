@@ -1,6 +1,7 @@
 #include <stdlib.h>
 /**
- * move_left - removes leading zeros from a binary number represented as a string
+ * move_left - removes leading zeros
+ * from a binary number represented as a string
  * @a: buffer containing the binary number
  * @size: size of the buffer
  * @num: number of digits in the binary number
@@ -20,7 +21,8 @@ char *move_left(char *a, int size, int num)
 /**
  * get_binary - convert an usigned integer to a binary string
  * @n: unsigned integer to convert
- * Return: returns pointer to the binary string representationof the input number
+ * Return: returns pointer to the binary
+ * string representationof the input number
  */
 
 char *get_binary(unsigned int n)
@@ -84,7 +86,8 @@ char *get_char(char c)
 /**
  * get_string - returns a newly allocated and copied string.
  * @s: string to be copied
- * Return: returns a pointer to the newly allocated and copied string or NULL if the string is NULL
+ * Return: returns a pointer to the newly allocated
+ * and copied string or NULL if the string is NULL
  */
 char *get_string(char *s)
 {
@@ -123,10 +126,12 @@ char *get_string(char *s)
 }
 
 /**
- * get_number - stores an integer as a string in a dynamically allocated memory block
+ * get_number - stores an integer as a string in
+ * a dynamically allocated memory block
  * @n: integer to be converted into a string
  *
- * Return: returns a pointer to the dynamically allocated memory block containing the string representation of the integer or NULL on error
+ * Return: returns a pointer to the dynamically allocated memory
+ * block containing the string representation of the integer or NULL on error
  */
 char *get_number(int n)
 {

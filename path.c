@@ -9,7 +9,8 @@
  * get_file - Checks if a  file exists and is executable
  * @params: Parameters for the file check
  *
- * Return: Valid path to the command file if it exists and is executable or NULL otherwise
+ * Return: Valid path to the command
+ * file if it exists and is executable or NULL otherwise
  */
 char *get_file(param_t *params)
 {

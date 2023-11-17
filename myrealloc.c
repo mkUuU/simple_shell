@@ -5,7 +5,8 @@
  * @ptr: pointer to the existing memory block
  * @old_size: size of the existing memory block
  * @new_size: desired size of the reallocated memory block
- * Return: a pointer to the newly allocated memory block or NULL if allocaion failed
+ * Return: a pointer to the newly
+ * allocated memory block or NULL if allocaion failed
  */
 char **_realloc(char **ptr, unsigned int old_size, unsigned int new_size)
 {

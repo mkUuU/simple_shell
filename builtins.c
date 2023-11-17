@@ -6,9 +6,11 @@
 #include "main.h"
 
 /**
- * get_builtin - retrieves a pointer to a built-in function based on the parameters provided in the param_t structure.
+ * get_builtin - retrieves a pointer to a built-in function
+ * based on the parameters provided in the param_t structure.
  * @params: pointer to the param_t structure containing the command parameters.
- * Return: returns a pointer to the built-in function if found, or NULL if not found
+ * Return: returns a pointer to the
+ * built-in function if found, or NULL if not found
  */
 
 void (*get_builtin(param_t *params))(param_t *)

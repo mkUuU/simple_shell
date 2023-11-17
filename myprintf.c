@@ -106,7 +106,8 @@ int _printf(const char *format, ...)
 }
 
 /**
- * flush_buffer - flushes the content of a buffer up to a certain index and resets the buffer
+ * flush_buffer - flushes the content of a buffer
+ * up to a certain index and resets the buffer
  * @buffer: buffer to be flushed
  * @index: the index up to which the buffer should be flushed
  * Return: total number of characters printed
@@ -135,7 +136,8 @@ int print_arg(char *arg)
 	return (write(1, arg, _strlen(arg)));
 }
 /**
- * get_type - retrieves the data type specified by the format string at the given index
+ * get_type - retrieves the data type
+ * specified by the format string at the given index
  * @format: format string containing specifications on data type
  * @index: index in the format string where that data type specifier starts
  */

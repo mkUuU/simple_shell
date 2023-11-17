@@ -22,7 +22,8 @@ void _printenv(param_t *params)
 }
 
 /**
- * print_list_env - prints the environment variables contained in the specified list
+ * print_list_env - prints the environment
+ * variables contained in the specified list
  * @head:  pointer to the head of the environment list
  */
 void print_list_env(list_t *head)

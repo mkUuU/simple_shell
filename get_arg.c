@@ -3,21 +3,25 @@
 #include <stdarg.h>
 
 /**
- * get_arg - formats and returns an argument based on the specified type specifier.
- * @type: a character indicating the desired formatting type (either 'c', 's', 'd', 'i', 'b', 'r', or 'R').
+ * get_arg - formats and returns an
+ * argument based on the specified type specifier.
+ * @type: a character indicating the desired
+ * formatting type (either 'c', 's', 'd', 'i', 'b', 'r', or 'R').
  * @...:zero or more additional arguments depending on the formatting type.
  *    Supported format types:
-
 *'c': Treats a char argument as an integer and returns it as a string.
 *'s': Converts a string argument to a char array and returns it as a string.
-   * 'd': If the argument is an integer, returns it as a decimal string. If the argument is already a string, returns it unchanged.
-   * 'i': Like 'd', but forces the output to be interpreted as a signed integer.
+   * 'd': If the argument is an integer, returns it as a
+   * decimal string. If the argument is already a string, returns it unchanged.
+   * 'i': Like 'd', but forces the
+   * output to be interpreted as a signed integer.
    * 'b': Converts an integer argument to a binary string.
    * 'r': Reverses a string argument and returns it as a new string.
-   * 'R': Applies ROT13 encryption to a string argument and returns the encoded string.
-
+   * 'R': Applies ROT13 encryption to a string
+   * argument and returns the encoded string.
  *
- * Return: an allocated string representing the formatted argument, or NULL if the type specifier is not supported.
+ * Return: an allocated string representing
+ * the formatted argument, or NULL if the type specifier is not supported.
  */
 
 

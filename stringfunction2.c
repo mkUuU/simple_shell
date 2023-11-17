@@ -6,9 +6,11 @@
 /**
  * _strcpy - copies a string from one memory location to another
  * @src: pointer to the source string
- * @dest: pointer to the destination memory address where the copied string will be stored.
+ * @dest: pointer to the destination memory address
+ * where the copied string will be stored.
  *
- * Return: pointer to the destination memory address where the copied string has been stored
+ * Return: pointer to the destination memory address
+ * where the copied string has been stored
  */
 char *_strcpy(char *dest, const char *src)
 {
@@ -30,11 +32,11 @@ char *_strcpy(char *dest, const char *src)
  * @s1: first string to be compared
  * @s2: seond string to be compared
  *
- * return:  An integer representing the comparison result, with the following meanings:
+ * return:  An integer representing the comparison result,
+ * with the following meanings:
  * negative number: s1 comes before s2 in the alphabetical order.
  * zero: s1 and s2 are equal.
  * positive number: s1 comes after s2 in the alphabetical order.
-
  */
 int _strcmp(char *s1, char *s2)
 {
@@ -53,14 +55,16 @@ int _strcmp(char *s1, char *s2)
 
 /**
  * _strcmp_n - comparison of two strings based on the first n bytes
- * @s1: first string to be compared 
+ * @s1: first string to be compared
  * @s2: second string to be compared
  * @n: number of bytes to compared
- * Return: An integer representing the comparison result, with the following meanings:
- * negative number: The first mismatching byte in s1 is less than the corresponding byte in s2.
+ * Return: An integer representing the comparison result,
+ * with the following meanings:
+ * negative number: The first mismatching byte in
+ * s1 is less than the corresponding byte in s2.
  * zero: The first n bytes of s1 and s2 are identical.
- * positive number: The first mismatching byte in s1 is greater than the corresponding byte in s2.
-
+ * positive number: The first mismatching byte in s1
+ * is greater than the corresponding byte in s2.
  */
 int _strcmp_n(char *s1, char *s2, int n)
 {

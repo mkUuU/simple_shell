@@ -1,10 +1,12 @@
 #include <stdlib.h>
 
 /**
- * str_concat - joins two strings and returns a pointer to the concatenated result
+ * str_concat - joins two strings and returns
+ * a pointer to the concatenated result
  * @z1: first string argument
  * @z2: second string argument
- * Return: NULL on failure, pointer to the dynamically allocated memory containing the concatenated stringon success
+ * Return: NULL on failure, pointer to the dynamically allocated
+ * memory containing the concatenated stringon success
  */
 char *str_concat(char *z1, char *z2)
 {
@@ -48,11 +50,13 @@ char *str_concat(char *z1, char *z2)
 	return (ptr);
 }
 /**
- * string_nconcat - concatenatedtwo strings and returns a pointer to the resulting string
+ * string_nconcat - concatenatedtwo strings and returns
+ * a pointer to the resulting string
  * @z1: first string argument
  * @z2: second string argument
  * @n: number of bytes taken from z2 for the concatenation
- * Return: NULL on failure, pointer to the dynamically allocated memory containing the concatenated stringon success
+ * Return: NULL on failure, pointer to the dynamically
+ * allocated memory containing the concatenated stringon success
  */
 char *string_nconcat(char *z1, char *z2, unsigned int n)
 {
@@ -99,7 +103,8 @@ char *string_nconcat(char *z1, char *z2, unsigned int n)
 /**
  *_strlen - returns the length of a string
  *@s: string whose length will be calculated
- *Return: 0 if the string is NULL, length of the string without the NULL terminator
+ *Return: 0 if the string is NULL,
+ *length of the string without the NULL-terminator
  */
 int _strlen(char *s)
 {
@@ -116,9 +121,12 @@ int _strlen(char *s)
 }
 
 /**
- * _strdup - duplicates a string by allocating a new block of memory and copying the contents of the original string into it.
+ * _strdup - duplicates a string by allocating a new block of memory and
+ * copying the contents of the original string into it.
  * @str: strig to be duplicated
- * Return: pointer to the newly allocated memory block containing the duplicates of the string, NULL if there is insufficient memory available to perform the operation
+ * Return: pointer to the newly allocated memory block containing the
+ * duplicates of the string, NULL if there is insufficient memory
+ * available to perform the operation
  */
 char *_strdup(char *str)
 {
@@ -145,7 +153,8 @@ char *_strdup(char *str)
  * _strchr - first occurrence of a character in the string
  * @s: starting position in the string where search begins
  * @c: character to search for
- * Return:  pointer to the beginning of the memory region where the character was found, or NULL if the character is not present in the string
+ * Return:  pointer to the beginning of the memory region where the
+ * character was found, or NULL if the character is not present in the string
  */
 char *_strchr(char *s, char c)
 {

@@ -33,7 +33,8 @@ void rev_string(char *s)
 /**
  * get_rev - retrives a reversed copy of a given string
  * @s: string to be reverse
- * Return: a new string that containd the reversed character of the original string
+ * Return: a new string that containd the
+ * reversed character of the original string
  */
 
 char *get_rev(char *s)

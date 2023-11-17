@@ -4,7 +4,8 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * struct param_s - structure that encapsulates all the variables neededby simple shell
+ * struct param_s - structure that encapsulates all the
+ * variables neededby simple shell
  * @argv: command line argument passed to the program from the main()function
  * @buffer: buffer for storing user input
  * @args: array of pointers to command line arguments
@@ -15,7 +16,8 @@
  * @status: the exit status of the commands executed
  * @env_head: head of singly linked list of enviroment variables
  * @alias_head: head of a singly linked list of command aliases
- * Description: structs that hold all the variables that need to be shared btw different functions within the simple shell
+ * Description: structs that hold all the variables that
+ * need to be shared btw different functions within the simple shell
  */
 typedef struct param_s
 {

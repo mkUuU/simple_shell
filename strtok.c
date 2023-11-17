@@ -24,7 +24,8 @@ int isDelim(char c, char *del)
  * _strtok - splits a string into tokens using a specific set of delimeters
  * @str: string to be split
  * @del: delimiters used to separate tokens
- * @savePtr: pointer to a state object that stores information about the splittng process
+ * @savePtr: pointer to a state object that stores
+ * information about the splittng process
  * Return: nxt token found in the string, NULL if no tokens remain
  */
 

@@ -4,7 +4,8 @@
 #include "lists.h"
 /**
  * _alias - shows the shell command
- * @params: a structure of type param_t, containing information about the command-line arguments and environment of the process.
+ * @params: a structure of type param_t, containing information about the
+ * command-line arguments and environment of the process.
  */
 void _alias(param_t *params)
 {
@@ -66,10 +67,12 @@ void set_alias(char *name, param_t *params)
 }
 
 /**
- * make_alias - Create a new alias and append it to the existing list of aliases.
+ * make_alias - Create a new alias
+ * and append it to the existing list of aliases.
  * @name:  The desired name for the new alias.
  * @val: The value that the alias will refer to.
- * @params: A structure containing the alias list, which will be updated to include the new alias.
+ * @params: A structure containing the alias list,
+ * which will be updated to include the new alias.
  */
 
 void make_alias(char *name, char *val, param_t *params)

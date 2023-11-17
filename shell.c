@@ -10,8 +10,9 @@ param_t *init_param(char **argv, char **env);
 /**
  * main - entry point to simpleshell
  * @argc: num of command line arguments passed to the program
- * @argv: an array of NUL-terminated strings representing the command line argument
- * @env: an array of Null-terminated strings representing enviroment variables
+ * @argv: an array of NULL-terminated strings
+ * representing the command line argument
+ * @env: an array of NULL-terminated strings representing enviroment variables
  *
  * Return: 0 on success
  */

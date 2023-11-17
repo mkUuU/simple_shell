@@ -42,7 +42,7 @@ void _setenv(param_t *params)
 }
 /**
  * _unsetenv - removes an environment variable with the given name
- * 
+ *
  * @params: parameters for removing the enviroment variable
 */
 void _unsetenv(param_t *params)

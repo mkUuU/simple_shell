@@ -3,7 +3,7 @@
 #include "shell.h"
 #include "main.h"
 /**
- * validNum - check whether a string is a valid numerical value 
+ * validNum - check whether a string is a valid numerical value
  * @s: string to be checked
  * Return: 0 if not valid/if false, 1 otherwise
  */

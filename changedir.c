@@ -85,7 +85,7 @@ void _cd(param_t *params)
 	_setenv(params);
 	for (i = 0; i < 3; i++)
 		free(tmpArgs[i]);
-	/*update the current working directory to match the specified target directory*/
+	/*update the cwd to match the specified target directory*/
 	tmpArgs[0] = _strdup("setenv");
 	tmpArgs[1] = _strdup("PWD");
 	tmpArgs[2] = _strdup(getcwd(cwd, 1024));

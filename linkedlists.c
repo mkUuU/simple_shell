@@ -18,10 +18,6 @@ size_t list_len(list_t *h)
 	return (i);
 }
 
-/**
- * print_list - prints all elements of a linked list
- */
-size_t print_list(list_t *h)
 {
 	int count;
 
@@ -63,7 +59,8 @@ list_t *add_node(list_t **head, char *str, char *val)
  * get_node - searches for a node in a linked list based on a key
  * @head: pointer to the current head of the list
  * @str: key to search in the list
- * Return: pointer to the node containing the matching key or NULL if no match was found
+ * Return: pointer to the node containing
+ * the matching key or NULL if no match was found
  */
 list_t *get_node(list_t *head, char *str)
 {
